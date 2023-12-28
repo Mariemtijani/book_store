@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    background-color: #ffffff;
+}
+
+.parent-container {
+    
+}
+.btn {
+    background-color: #BE6F72;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.btn:hover {
+    background-color: #de8688;
+
+/* navbar style */
+}
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    /* box-shadow: 1px 1px 1px 1px #c0c0c0c0; */
+}
+li {
+    list-style: none;
+}
+
+.nav-logo img {
+    width: 150px;
+    margin-top: 20px;
+}
+.nav-menu {
+    margin-right: 20px;
+}
+li .nav-link {
+    text-decoration: none;
+    font-family: 'rubik';
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: #003060;
+}
+
+li .nav-link:hover {
+    color: #BE6F72;
+}
+
+ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+/* book items style******************************************************************* */
+.items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #ccc, 1px 1px 1px 1px #ccc,1px 1px 1px 1px #ccc,1px 1px 1px 1px #ccc;
+    text-align: center;
+    background-color: white;
+    width: 210px;
+    height: 300px;
+}
+.item img {
+    width: 100%;
+    height: 220px;
+}
+.item-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 5px 3px;
+    align-items: flex-start;
+}
+.names {
+    width: 120px;
+    text-align: start;
+}
+.item-info .book-name {
+    color: #003060;
+    display: block;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+.item-info .author-name {
+    color: #9c9b9b;
+}
+
+.item-price {
+    margin-right: -20px;
+}
+
+.item-price .price {
+    color: #003060;
+    font-weight: bold;
+
+}
+.item-price .item-btn {
+    background-color: #40B5AD;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.item-price .item-btn:hover {
+    background-color: #58d3ca;
+}
+.item-price .item-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'rubik';
+}
+
+/* slider home container ********************************************************************** */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-top: 30px;
+    
+}
+
+.home-img img {
+    width: 500px;
+}
+.home-content span {
+    color: #3d424a;
+    font-size: 50px;
+    font-family: 'rubik';
+    font-weight: bolder;
+    
+}
+.home-content p {
+    color: #9c9b9b;
+    font-family: 'rubik';
+}
+
+
+.browse-content h3 {
+    color: #003060;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Categories names and section styles **************************************************** */
+
+.container-categorie {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    gap: 60px;
+    align-items: flex-start;
+    
+}
+
+.container-categorie h2 {
+    color: #003060;
+    /* margin-left: 40px; */
+    font-family: 'rubik';
+}
+
+.cate-name {
+    background-color: #c57f81;
+    display: grid;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.cate-name li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'rubik';
+}
+.cate-name li a:hover {
+    color: #003060;
+}
+.cate-name li {
+    list-style: none;
+    margin-top: 20px;
+}
+
